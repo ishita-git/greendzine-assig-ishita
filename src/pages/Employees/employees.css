@@ -1,0 +1,24 @@
+.employee-card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color:  #5E5E5E82;
+    color: #FFFFFFB3;
+    background: #1F191966 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 3px 3px #FFFDFD40, 3px 3px 3px #4A494947;
+    mix-blend-mode: normal;
+    border-radius: 20px;
+    margin-top: 30px;
+
+}
+.yellow{
+  color: yellow;
+}
+.green{
+  color:green
+}
+.row{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}

@@ -1,0 +1,78 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content:center ;
+}
+
+.dashboard-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    overflow-y: auto;
+    /* position: absolute; */
+    /*add overflow*/
+}
+
+.profile-logo img {
+    display: flex;
+    float: right;
+}
+
+.main-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 41px;
+}
+
+.title-container {
+    background-color: #1A2C2C99;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+
+.title {
+    color: #FFFFFFB3;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1A2C2C99;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.main-dashboard {
+    background-color: #1A2C2C99;
+    width: 330px;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.bottom-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    height: 50px;
+    bottom: 0;
+    width: 300px;
+    background-color: #1A2C2C99;
+    color: green;
+    gap: 100px;
+    opacity:1;
+
+}
+.all-users{
+    /* display: flex;
+    overflow-y: auto; */
+}

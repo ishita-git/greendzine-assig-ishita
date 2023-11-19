@@ -1,0 +1,22 @@
+.progress-bar{
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+
+}
+.title-container{
+    display: flex;
+    align-items: center;
+    gap: 156px;
+    background-color: inherit;
+    
+}
+.title-main{
+    color: #FFFFFF;
+
+}
+.percentage{
+    color: #36A546;
+    font-size: 14px;
+
+}

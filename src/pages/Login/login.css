@@ -1,0 +1,64 @@
+.login-page {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    margin-top: 160px;
+    margin-bottom: 17px;
+
+}
+
+.tagline {
+    display: flex;
+    color: #36A546CC;
+    align-items: center;
+    justify-content: center;
+    font: normal normal normal Mulish;
+    letter-spacing: 0.02px;
+    font-size: 16px;
+    margin-bottom: 49px;
+    opacity: 1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    background: transparent linear-gradient(180deg, #00FF2580 0%, #000000 100%, #36A54680 100%) 0% 0% no-repeat padding-box;
+    width: 238px;
+    height: 42px;
+    mix-blend-mode: normal;
+    border: 2px solid #8CFF0026;
+    opacity: 1;
+    color: #FFFFFF8C;
+    border-radius: 20px;
+}
+
+ input {
+    height: 42px;
+    width: 238px;
+    opacity: 1;
+    background: #1F191966 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 3px 3px #FFFDFD40, 3px 3px 3px #4A494947;
+    mix-blend-mode: normal;
+    border-radius: 20px;
+    color: gray;
+}
+input:focus{
+    background: #1F191966 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 3px 3px #FFFDFD40, 3px 3px 3px #4A494947;
+    color: gray;
+}
